@@ -14,3 +14,17 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+.grid-container {
+	display: grid;
+	width: 500px;
+	height: 500px;
+	border: 2px solid black;
+	margin: 50px;
+}
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 500px;
+	align-items: center;
+}
